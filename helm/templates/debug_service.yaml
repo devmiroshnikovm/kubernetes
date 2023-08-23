@@ -1,0 +1,17 @@
+# Debug
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-flask-app-service-debug
+  namespace: my-app-namespace
+spec:
+  selector:
+    app.kubernetes.io/name: my-flask-app
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: http
+      nodePort: 30007
+  type: NodePort

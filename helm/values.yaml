@@ -1,0 +1,7 @@
+replicaCount: 3
+
+image:
+  repository: miroshnikovm/my-flask-app
+  tag: "1.100"
+
+author: "mik"

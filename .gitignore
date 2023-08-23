@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Helm chart packages
+*.tgz
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+*.venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# IDE directories
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo

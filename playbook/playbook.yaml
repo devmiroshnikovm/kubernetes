@@ -1,0 +1,9 @@
+---
+- name: Super playbook
+  hosts: all
+  become: true
+  become_method: sudo
+  roles:
+    - sshd_no_root
+    - users_add
+  vars_files: "./group_vars/users.yaml"
