@@ -38,19 +38,18 @@ Web app, written on python.
 
 ### /manifest - kubernetes section
 
-Kubernetes manifest. See deployment.yaml
+See deployment.yaml
 
 #### Tested
 
 Tested locally on Kubernetes cluster v1.26.5, deployed by kuberspray.
 
-- srv01 (virtualazed Ubuntu server on VMware Fusion) - control-plane
-- srv02 (virtualazed Ubuntu server on VMware Fusion) - worker
+- srv01 (virtualized Ubuntu server on VMware Fusion) - control-plane
+- srv02 (virtualized Ubuntu server on VMware Fusion) - worker
 
 ### /helm - helm section
 
 Helm section.
-Create namespace first:
 
 ```bash
 kubectl create namespace my-app-namespace
