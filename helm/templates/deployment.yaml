@@ -4,7 +4,7 @@ metadata:
   name: my-flask-app
   namespace: my-app-namespace
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: { { .Values.replicaCount } }
   selector:
     matchLabels:
       app.kubernetes.io/name: my-flask-app
@@ -44,8 +44,8 @@ spec:
 
           resources:
             limits:
-              cpu: 400m # выделяем 400 ms из 1 сек процессора
-              memory: 256Mi # oom killer
+              cpu: 400m
+              memory: 256Mi
             requests:
               cpu: 200m
               memory: 128Mi

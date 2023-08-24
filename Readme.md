@@ -51,11 +51,6 @@ Tested locally on Kubernetes cluster v1.26.5, deployed by kuberspray.
 
 Helm section.
 
-```bash
-kubectl create namespace my-app-namespace
-helm install my-flask-app-release ./helm/ --namespace my-app-namespace
-```
-
 ## Contacts
 
 Telegram: @miklemir
