@@ -52,8 +52,8 @@ spec:
 
         resources:
           limits:
-            cpu: 400m # выделяем 400 мс из 1 сек процессора
-            memory: 256Mi # oom killer
+            cpu: 400m 
+            memory: 256Mi 
           requests:
             cpu: 200m
             memory: 128Mi
